@@ -27,7 +27,7 @@ git clone https://github.com/githubesson/agentx.git ~/.oh-my-zsh/custom/plugins/
 add `agentx` to your `.zshrc` plugins list:
 
 ```bash
-plugins=(... ai-agents)
+plugins=(... agentx)
 ```
 
 ### manual
@@ -69,3 +69,7 @@ press `ctrl+x` again to deselect the current agent and return to normal shell be
 ## requirements
 
 you must have the corresponding ai agent cli tools installed on your system. the plugin will only show available agents in the menu based on what's actually installed.
+
+## credits
+
+moonshot team for the idea - https://github.com/MoonshotAI/zsh-kimi-cli
